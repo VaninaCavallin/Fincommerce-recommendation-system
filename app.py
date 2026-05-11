@@ -379,3 +379,34 @@ with st.expander("Como se calculan las recomendaciones"):
         "por probabilidad de categoria, popularidad, rating y afinidad historica del cliente. "
         "El modelo no predice un product_id directamente; el producto se elige en este segundo paso de ranking."
     )
+
+    
+    st.markdown("""
+    ### Metodología del sistema de recomendación
+
+    El sistema utiliza un modelo de recomendación basado en comportamiento histórico de compra de los usuarios.
+
+    Para generar recomendaciones se consideran variables como:
+
+    - Categorías previamente compradas
+    - Popularidad de productos
+    - Rating promedio
+    - Cantidad de compradores
+    - Afinidad entre categorías
+
+    ### Métricas utilizadas
+
+    - Precision@K
+    - Recall@K
+    - NDCG
+
+    Estas métricas permiten evaluar la relevancia y calidad del ranking de recomendaciones.
+
+    ### Valor de negocio
+
+    El sistema busca:
+    - aumentar conversión,
+    - mejorar experiencia del usuario,
+    - fomentar cross-selling,
+    - incrementar retención de clientes.
+    """)
