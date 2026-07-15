@@ -66,3 +66,183 @@ Geolocalización
 Durante el proceso de ETL estas tablas fueron integradas para construir un único dataset orientado al modelado.
 
 🔄 Metodología CRISP-DM
+
+flowchart LR
+
+A[Business Understanding]
+-->B[Data Understanding]
+-->C[EDA + ETL]
+-->D[Feature Engineering]
+-->E[Machine Learning]
+-->F[Recommendation Engine]
+-->G[Streamlit App]
+Durante el proceso de ETL estas tablas fueron integradas para construir un único dataset orientado al modelado.
+
+🏗 Arquitectura del proyecto
+
+Olist Dataset
+       │
+       ▼
+Extracción de datos
+       │
+       ▼
+ETL
+       │
+       ▼
+EDA
+       │
+       ▼
+Feature Engineering
+       │
+       ▼
+Machine Learning
+       │
+       ▼
+Sistema de Recomendación
+       │
+       ▼
+Aplicación Streamlit
+
+📁 Estructura del repositorio
+
+fincommerce-recommendation-system/
+
+│
+
+├── notebooks/
+
+│ ├── 01_EDA_ETL.ipynb
+
+│ ├── 02_EDA_Explorativo.ipynb
+
+│ └── 03_Modelado.ipynb
+
+│
+
+├── data/
+
+├── models/
+
+├── app.py
+
+├── requirements.txt
+
+├── README.md
+
+└── .gitignore
+
+📚 Notebooks
+
+| Notebook                     | Descripción                                                                     |
+| ---------------------------- | ------------------------------------------------------------------------------- |
+| **01_EDA_ETL.ipynb**         | Descarga del dataset, limpieza, integración y transformación de datos.          |
+| **02_EDA_Explorativo.ipynb** | Análisis exploratorio, visualizaciones e identificación de insights de negocio. |
+| **03_Modelado.ipynb**        | Entrenamiento y evaluación de modelos de Machine Learning para recomendaciones. |
+
+
+🤖 Modelos implementados
+
+Se evaluaron distintos algoritmos supervisados para estimar la categoría de producto más adecuada para cada cliente.
+
+Modelos implementados:
+
+Random Forest
+XGBoost
+LightGBM
+
+Durante la etapa de modelado se realizaron tareas de:
+
+Preprocesamiento
+Feature Engineering
+Label Encoding
+Entrenamiento
+Validación
+Comparación de desempeño
+
+El modelo LightGBM presentó el mejor equilibrio entre precisión y velocidad de inferencia, por lo que fue seleccionado para el sistema de recomendación final.
+
+🎯 Sistema de recomendación
+
+El sistema desarrollado utiliza el modelo entrenado para generar recomendaciones personalizadas considerando el historial de compras de cada cliente.
+
+La lógica de recomendación combina:
+
+Predicción de categorías mediante Machine Learning.
+Popularidad de productos.
+Historial de compras.
+Afinidad del cliente.
+Exclusión de productos previamente adquiridos.
+
+Este enfoque permite generar recomendaciones relevantes y adaptadas al comportamiento individual de cada usuario.
+
+📱 Aplicación interactiva (Streamlit)
+
+El proyecto incluye una aplicación desarrollada en Streamlit que permite explorar las recomendaciones generadas por el modelo.
+
+Funcionalidades principales
+Buscar clientes existentes.
+Generar recomendaciones personalizadas.
+Filtrar por categorías.
+Excluir productos previamente comprados.
+Visualizar historial de compras.
+Consultar métricas del modelo.
+📈 Visualizaciones
+Exploración de datos
+
+(Agregar imagen)
+
+Análisis exploratorio del comportamiento de clientes y distribución de productos.
+
+Categorías más vendidas
+
+(Agregar imagen)
+
+Distribución de categorías con mayor volumen de ventas.
+
+Desempeño del modelo
+
+(Agregar imagen)
+
+Comparación de modelos de Machine Learning evaluados durante el proyecto.
+
+Aplicación Streamlit
+
+(Agregar captura de pantalla)
+
+Interfaz desarrollada para consultar recomendaciones de productos en tiempo real.
+
+💼 Competencias demostradas
+Machine Learning End-to-End
+Recommendation Systems
+ETL
+EDA
+Feature Engineering
+Modelado supervisado
+Business Analytics
+CRISP-DM
+Storytelling con datos
+Desarrollo de aplicaciones con Streamlit
+Git & GitHub
+Trabajo colaborativo bajo Scrum
+⭐ Valor agregado
+Pipeline completo de Ciencia de Datos desde la comprensión del negocio hasta el despliegue de una aplicación funcional.
+Integración de múltiples fuentes de datos para construir un dataset listo para modelado.
+Comparación de distintos algoritmos de Machine Learning.
+Desarrollo de un sistema de recomendación personalizado con aplicación interactiva.
+Implementación siguiendo buenas prácticas de control de versiones mediante Git y GitHub en un entorno colaborativo.
+🚀 Próximas mejoras
+Implementar Collaborative Filtering.
+Incorporar modelos híbridos de recomendación.
+Optimizar hiperparámetros mediante GridSearchCV.
+Dockerizar la aplicación.
+Integrar MLflow para el seguimiento de experimentos.
+Automatizar el pipeline mediante GitHub Actions.
+👩‍💻 Autora
+
+Vanina Cavallin
+
+Ph.D. in Biological Sciences | Data Scientist | Data Analyst
+
+📧 Email: vaninacavallin@gmail.com
+
+💼 LinkedIn: https://linkedin.com/in/vanina-cavallin
