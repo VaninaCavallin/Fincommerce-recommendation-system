@@ -411,13 +411,13 @@ Se importaron las tablas originales del dataset:
 
 Durante esta etapa se realizaron diversas tareas de preparación de datos:
 
-- eliminación de registros duplicados;
-- tratamiento de valores faltantes;
-- unificación de claves primarias y foráneas;
-- normalización de variables;
-- transformación de tipos de datos;
-- generación de nuevas variables;
-- construcción de tablas derivadas.
+- Eliminación de registros duplicados;
+- Tratamiento de valores faltantes;
+- Unificación de claves primarias y foráneas;
+- Normalización de variables;
+- Transformación de tipos de datos;
+- Generación de nuevas variables;
+- Construcción de tablas derivadas.
 
 Estas transformaciones permitieron obtener un conjunto de datos consistente para el entrenamiento de los modelos.
 
@@ -427,11 +427,11 @@ Estas transformaciones permitieron obtener un conjunto de datos consistente para
 
 Finalmente se generó un dataset consolidado utilizado en las etapas posteriores de:
 
-- análisis exploratorio;
-- entrenamiento;
-- evaluación;
-- sistema de recomendación;
-- aplicación Streamlit.
+- Análisis exploratorio;
+- Entrenamiento;
+- Evaluación;
+- Sistema de recomendación;
+- Aplicación Streamlit.
 
 ---
 
@@ -493,13 +493,13 @@ Durante el desarrollo del proyecto se aplicaron diversas buenas prácticas orien
 
 Entre ellas se destacan:
 
-- estructura modular del proyecto;
-- separación entre datos crudos y procesados;
-- uso de notebooks organizados por etapas;
-- control de versiones mediante Git;
-- documentación del proyecto;
-- desarrollo colaborativo mediante Pull Requests;
-- aplicación de la metodología CRISP-DM.
+- Estructura modular del proyecto;
+- Separación entre datos crudos y procesados;
+- Uso de notebooks organizados por etapas;
+- Control de versiones mediante Git;
+- Documentación del proyecto;
+- Desarrollo colaborativo mediante Pull Requests;
+- Aplicación de la metodología CRISP-DM.
 
 ---
 
@@ -680,10 +680,10 @@ Su utilización permitió generar recomendaciones personalizadas a partir del hi
 
 El proceso de modelado permitió comprender la importancia de:
 
-- la calidad de los datos;
-- la Ingeniería de Características;
-- la correcta selección de métricas de evaluación;
-- la interpretación de resultados desde una perspectiva de negocio.
+- La calidad de los datos;
+- La Ingeniería de Características;
+- La correcta selección de métricas de evaluación;
+- La interpretación de resultados desde una perspectiva de negocio.
 
 Más allá del desempeño del algoritmo, el éxito de un sistema de recomendación depende de la integración de todas las etapas del pipeline de Ciencia de Datos.
 
