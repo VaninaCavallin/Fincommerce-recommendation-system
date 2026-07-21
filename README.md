@@ -336,30 +336,42 @@ La estructura del proyecto fue diseñada para mantener una separación clara ent
 ```text
 FinCommerce-Recommendation-System
 │
+│
 ├── app/
-│   ├── pages/
-│   ├── utils/
 │   └── streamlit_app.py
+│   
 │
 ├── data/
-│   ├── raw/
-│   ├── processed/
-│   └── external/
-│
-├── notebooks/
-│   ├── 01_ETL.ipynb
-│   ├── 02_EDA.ipynb
-│   ├── 03_Feature_Engineering.ipynb
-│   ├── 04_Modeling.ipynb
-│   └── 05_Recommendation_System.ipynb
+│   ├── dataset_modelo.csv
+│   └── product_category_name_translation.csv
+│    
 │
 ├── images/
+│   └── E-Commerce Banner.png
+│
 │
 ├── models/
+│   └── lightgbm_recommender.joblib
 │
-├── requirements.txt
 │
-└── README.md
+├── notebooks/
+│   ├── 01_EDA_Explorativo.ipynb
+│   ├── 02_EDA_ETL.ipynb
+│   ├── 03_Modelado.ipynb
+│   ├── 03_Modelado_v1.ipynb
+│   └── 04_Validacion_despliegue.ipynb
+│
+│
+├── README.md
+│
+│
+├── notebooks/
+│
+│
+├──app_vq.py
+│
+│
+└── requirements.txt 
 ```
 
 ---
