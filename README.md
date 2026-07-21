@@ -32,7 +32,9 @@ Pipeline End-to-End de Machine Learning para Recomendación Inteligente de Produ
 - 🌟 ¿Por qué este proyecto?
 - 💼 Problema de negocio
 - 🎯 Objetivos del proyecto
-- 📊 Dataset
+- 📊 Dataset -- Tablas
+- 🔄 Flujo general del proyecto
+- 🧩 Desafíos del proyecto
 - 🏗️ Arquitectura del proyecto
 - 🔄 Metodología CRISP-DM
 - 📂 Organización del repositorio
