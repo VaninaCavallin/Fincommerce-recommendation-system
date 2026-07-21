@@ -25,6 +25,30 @@ Pipeline End-to-End de Machine Learning para Recomendación Inteligente de Produ
 
 ---
 
+# 📑 Índice
+
+- 📌 Resumen Ejecutivo
+- 🚀 Aspectos destacados del proyecto
+- 🌟 ¿Por qué este proyecto?
+- 💼 Problema de negocio
+- 🎯 Objetivos del proyecto
+- 📊 Dataset
+- 🏗️ Arquitectura del proyecto
+- 🔄 Metodología CRISP-DM
+- 📂 Organización del repositorio
+- 🔬 Análisis Exploratorio de Datos (EDA)
+- ⚙️ Ingeniería de Características
+- 🤖 Modelado
+- 🧠 Sistema de recomendación
+- 📱 Dashboard interactivo
+- 📈 Resultados
+- 💡 Valor para el negocio
+- 🛠️ Tecnologías utilizadas
+- 🚀 Próximas mejoras
+- 👩‍💻 Sobre la autora
+
+---
+
 # 📌 Resumen Ejecutivo
 
 **FinCommerce** es un proyecto **End-to-End de Ciencia de Datos** desarrollado como trabajo final del **Bootcamp de Data Science de Henry**.
@@ -67,29 +91,6 @@ Transformar esos datos en **recomendaciones personalizadas** permite:
 - Generar mayor valor para el negocio.
 
 Este proyecto demuestra cómo la Ciencia de Datos puede convertir datos transaccionales en información accionable mediante el desarrollo de un sistema inteligente de recomendación.
-
----
-
-# 📑 Índice
-
-- 📌 Resumen Ejecutivo
-- 🚀 Aspectos destacados del proyecto
-- 💼 Problema de negocio
-- 🎯 Objetivos del proyecto
-- 📊 Dataset
-- 🏗️ Arquitectura del proyecto
-- 🔄 Metodología CRISP-DM
-- 📂 Organización del repositorio
-- 🔬 Análisis Exploratorio de Datos (EDA)
-- ⚙️ Ingeniería de Características
-- 🤖 Modelado
-- 🧠 Sistema de recomendación
-- 📱 Dashboard interactivo
-- 📈 Resultados
-- 💡 Valor para el negocio
-- 🛠️ Tecnologías utilizadas
-- 🚀 Próximas mejoras
-- 👩‍💻 Sobre la autora
 
 ---
 
