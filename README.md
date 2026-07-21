@@ -752,11 +752,11 @@ El dashboard fue diseñado para facilitar la interpretación de los resultados o
 
 La aplicación permite:
 
-- visualizar indicadores generales del negocio;
-- explorar el comportamiento del dataset;
-- consultar información de clientes y productos;
-- obtener recomendaciones personalizadas;
-- analizar métricas del sistema de recomendación.
+- Visualizar indicadores generales del negocio;
+- Explorar el comportamiento del dataset;
+- Consultar información de clientes y productos;
+- Obtener recomendaciones personalizadas;
+- Analizar métricas del sistema de recomendación.
 
 ---
 
@@ -766,12 +766,12 @@ Dentro del dashboard se incorporaron distintos KPIs para resumir el comportamien
 
 Entre ellos se incluyen:
 
-- cantidad de clientes;
-- cantidad de productos;
-- pedidos registrados;
-- categorías disponibles;
-- vendedores;
-- volumen total de ventas.
+- Cantidad de clientes;
+- Cantidad de productos;
+- Pedidos registrados;
+- Categorías disponibles;
+- Vendedores;
+- Volumen total de ventas.
 
 ---
 
@@ -795,11 +795,11 @@ Estas métricas permiten evaluar la utilidad práctica del sistema desde la pers
 
 Se recomienda incluir imágenes de:
 
-- página principal;
-- indicadores generales;
-- recomendaciones obtenidas;
-- visualizaciones interactivas;
-- filtros disponibles.
+- Página principal;
+- Indicadores generales;
+- Recomendaciones obtenidas;
+- Visualizaciones interactivas;
+- Filtros disponibles.
 
 ---
 
@@ -809,12 +809,12 @@ Los sistemas de recomendación representan una de las aplicaciones más importan
 
 Una implementación adecuada puede contribuir a:
 
-- mejorar la experiencia del cliente;
-- incrementar la conversión;
-- aumentar el ticket promedio;
-- favorecer estrategias de cross-selling;
-- potenciar el descubrimiento de productos;
-- mejorar la fidelización de clientes.
+- Mejorar la experiencia del cliente;
+- Incrementar la conversión;
+- Aumentar el ticket promedio;
+- Favorecer estrategias de cross-selling;
+- Potenciar el descubrimiento de productos;
+- Mejorar la fidelización de clientes.
 
 Aunque este proyecto fue desarrollado con fines educativos, reproduce las principales etapas utilizadas en soluciones reales implementadas por empresas del sector.
 
@@ -827,14 +827,14 @@ La arquitectura desarrollada permite incorporar futuras mejoras sin modificar la
 
 Entre las posibles extensiones se encuentran:
 
-- sistemas híbridos de recomendación;
-- filtrado colaborativo basado en usuarios;
-- filtrado colaborativo basado en productos;
-- recomendaciones en tiempo real;
-- despliegue mediante Docker;
-- seguimiento de experimentos con MLflow;
-- integración con servicios en la nube;
-- automatización del pipeline mediante herramientas de orquestación.
+- Sistemas híbridos de recomendación;
+- Filtrado colaborativo basado en usuarios;
+- Filtrado colaborativo basado en productos;
+- Recomendaciones en tiempo real;
+- Despliegue mediante Docker;
+- Seguimiento de experimentos con MLflow;
+- Integración con servicios en la nube;
+- Automatización del pipeline mediante herramientas de orquestación.
 
 ---
 
@@ -955,14 +955,14 @@ El proyecto fue diseñado con una arquitectura que facilita su evolución.
 
 Entre las posibles líneas de trabajo futuras se incluyen:
 
-- implementación de sistemas híbridos de recomendación;
-- incorporación de nuevos algoritmos de ranking;
-- recomendaciones en tiempo real;
-- integración con APIs de comercio electrónico;
-- seguimiento de experimentos mediante MLflow;
-- despliegue utilizando Docker;
-- integración con servicios Cloud;
-- automatización del pipeline de datos.
+- Implementación de sistemas híbridos de recomendación;
+- Incorporación de nuevos algoritmos de ranking;
+- Recomendaciones en tiempo real;
+- Integración con APIs de comercio electrónico;
+- Seguimiento de experimentos mediante MLflow;
+- Despliegue utilizando Docker;
+- Integración con servicios Cloud;
+- Automatización del pipeline de datos.
 
 ---
 
@@ -970,13 +970,13 @@ Entre las posibles líneas de trabajo futuras se incluyen:
 
 Durante el desarrollo del proyecto se consolidaron conocimientos relacionados con:
 
-- procesamiento de datos;
-- integración de múltiples fuentes de información;
-- construcción de sistemas de recomendación;
-- evaluación mediante métricas específicas;
-- desarrollo de aplicaciones con Streamlit;
-- documentación profesional de proyectos;
-- trabajo colaborativo utilizando Git y GitHub.
+- Procesamiento de datos;
+- Integración de múltiples fuentes de información;
+- Construcción de sistemas de recomendación;
+- Evaluación mediante métricas específicas;
+- Desarrollo de aplicaciones con Streamlit;
+- Documentación profesional de proyectos;
+- Trabajo colaborativo utilizando Git y GitHub.
 
 ---
 
